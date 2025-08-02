@@ -38,7 +38,22 @@ module.exports = {
           dark: "#2C2C2C",
         }
       },
+    keyframes: {
+      marquee: {
+        "0%": { transform: "translateX(0%)" },
+        "100%": { transform: "translateX(-50%)" },
+      },
     },
+    animation: {
+      marquee: "marquee 30s linear infinite",
+    },
+    fontFamily: {
+      edu: ['"Edu NSW ACT Cursive"', 'cursive'],
+      bitcount: ['"Bitcount Grid Double"', 'system-ui'],
+      cursive: ['"Dancing Script"', 'cursive']
+    },
+  },
+
   },
   plugins: [],
 };

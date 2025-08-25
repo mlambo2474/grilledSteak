@@ -30,7 +30,7 @@ export const FeaturingDishes = [
         price: 8.49
     },
     {
-        id: 3,
+        id: 300,
         image: 'https://img.freepik.com/free-photo/side-view-double-cheeseburger-with-grilled-beef-patties-cheese-lettuce-leaf-burger-buns_141793-4883.jpg',
         title: 'Chicken-beef burger',
         description: 'A unique patty made from a combination of ground chicken and ground beef',

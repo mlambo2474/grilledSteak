@@ -3,15 +3,15 @@ import waiter from "../assets/headwaiter.jpg";
 import manager from "../assets/themanager.jpg";
 import chiefsomelier from "../assets/chiefsomelier.jpg";
 import restaurant from "../assets/restaurantbuilding2.jpg";
-import award1 from "../assets/award1.jpeg"
-import award2 from "../assets/award2.png"
-import award3 from "../assets/award3.jpeg"
-import award4 from "../assets/award4.jpg"
+import award1 from "../assets/award1.jpeg";
+import award2 from "../assets/award2.png";
+import award3 from "../assets/award3.jpeg";
+import award4 from "../assets/award4.jpg";
 
 const About = () => (
   <div className="pt-16 container mx-auto max-w-10xl text-secondary">
     <div className="flex flex-col items-center justify-center text-center">
-      <img src={restaurant} alt="" />
+      <img src={restaurant} alt="" className=" w-96 md:w-full mx-6" />
       <h1 className="text-3xl font-bold mb-6 text-primary my-4">Our Story</h1>
 
       <p className="px-28">
@@ -32,21 +32,21 @@ const About = () => (
       </p>
     </div>
     {/* STAFF SECTION */}
-    <h2 className="text-3xl font-bold mb-4 text-primary text-center py-12 px-28">
+    <h2 className="text-3xl font-bold mb-4 text-primary text-center px-4 py-12 md:px-28">
       Meet the Team
     </h2>
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center md:mx-20">
+
+    <div className="flex flex-col md:flex-row items-center md:items-start gap-8 md:gap-12 px-4 md:px-0">
       <img
         src={chef2}
-        alt="Chef Alexander Mokoena"
-        className="w-full h-auto rounded-lg object-cover"
+        alt="manager image"
+        className="w-auto h-52 md:w-2/4 md:h-96 rounded-lg object-cover shadow-lg"
       />
-
-      <div className="px-6">
-        <h6 className="text-primary-dark text-2xl font-bold py-2">
+      <div className="md:flex-1 mt-6 md:mt-0">
+        <h6 className="text-primary-dark text-2xl font-bold py-2 text-center md:text-left">
           Meet our Chef
         </h6>
-        <p className="text-secondary">
+        <p className="text-secondary text-center md:text-left">
           At the heart of Grilled Steakhouse is our executive chef,{" "}
           <strong>Chef Alexander Mokoena</strong>, whose culinary expertise
           transforms the finest cuts of beef into unforgettable dining
@@ -62,13 +62,14 @@ const About = () => (
         </p>
       </div>
     </div>
+
     {/* TEAM LEADERS */}
     <div className="grid grid-cols-1 md:grid-cols-3 gap-6 pt-12">
-      <div className="flex flex-col w-90 shadow-md rounded-lg p-4 text-center mx-2">
+      <div className="flex flex-col w-90 shadow-md align-center items-center rounded-lg p-4 text-center mx-2">
         <img
           src={manager}
           alt="manager image"
-          className="w-full h-50 rounded-lg"
+          className="w-96 md:w-full h-50 rounded-lg"
         />
         <h6 className="text-primary-dark text-lg font-bold">
           Restaurant Manager
@@ -84,11 +85,11 @@ const About = () => (
         </p>
       </div>
 
-      <div className="flex flex-col w-90 shadow-md rounded-lg p-4 text-center mx-2">
+      <div className="flex flex-col w-90 shadow-md align-center items-center rounded-lg p-4 text-center mx-2">
         <img
           src={waiter}
           alt="manager image"
-          className="w-full h-50 rounded-lg"
+          className="w-96 md:w-full h-50 rounded-lg"
         />
         <h6 className="text-primary-dark text-lg font-bold">Head Waiter</h6>
         <p>
@@ -101,11 +102,11 @@ const About = () => (
         </p>
       </div>
 
-      <div className="flex flex-col w-90 shadow-md rounded-lg p-4 text-center mx-2">
+      <div className="flex flex-col w-90 shadow-md align-center items-center rounded-lg p-4 text-center mx-2">
         <img
           src={chiefsomelier}
           alt="manager image"
-          className="w-full h-50 rounded-lg"
+          className="w-96 md:w-full h-50 rounded-lg"
         />
         <h6 className="text-primary-dark text-lg font-bold">Chief Somelier</h6>
         <p>
@@ -119,26 +120,28 @@ const About = () => (
         </p>
       </div>
     </div>
-    <h2 className="text-3xl font-bold mb-4 text-primary text-center py-12 px-28">
+    <h2 className="text-3xl font-bold mb-4 text-primary text-center py-12 px-32">
       Our Achievemnts
     </h2>
-    <div className="flex items-center justify-center gap-4">
-      <img src={award2} alt=""  className="rounded-full w-40 h-30"/>
-      <img src={award3} alt=""  className="rounded-full w-40 h-30"/>
-      <img src={award4} alt=""  className="rounded-full w-40 h-36"/>
-      <img src={award1} alt=""  className="rounded-full w-40 h-30"/>
-
+    <div className="flex flex-wrap items-center justify-center gap-4">
+      <img src={award2} alt="" className="rounded-full w-40 h-30" />
+      <img src={award3} alt="" className="rounded-full w-40 h-30" />
+      <img src={award4} alt="" className="rounded-full w-40 h-36" />
+      <img src={award1} alt="" className="rounded-full w-40 h-30" />
     </div>
-
-
 
     <h2 className="text-3xl font-bold mb-4 text-primary text-center py-12 px-28">
       Find Us here
     </h2>
-    <div className="w-full h-64 bg-gray-200 mb-4 flex items-center justify-center ">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d822.853082661412!2d19.246929825032797!3d-34.416280120054736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dce0bb021c8bbc9%3A0xe48b43ee346c8f17!2sProtea%20House!5e0!3m2!1sen!2sza!4v1753535904337!5m2!1sen!2sza" className="h-64 w-full" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-
+    <div className="w-30 mx-2 md:mx-0 md:w-full overflow-hidden h-64 bg-gray-200 mb-4 flex items-center justify-center ">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d822.853082661412!2d19.246929825032797!3d-34.416280120054736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dce0bb021c8bbc9%3A0xe48b43ee346c8f17!2sProtea%20House!5e0!3m2!1sen!2sza!4v1753535904337!5m2!1sen!2sza"
+        className="h-64 w-full"
+        allowFullScreen=""
+        loading="lazy"
+        referrerPolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
   </div>
 );
 

@@ -31,10 +31,10 @@ const Menu = () => (
       </div>
     </section>
     <div className="text-center  border-primary mt-8 p-4 border-x-8">
-      <h1 className="text-5xl font-bold mb-6 text-primary">
+      <h1 className="text-2xl md:text-5xl font-bold mb-6 text-primary">
         Savor the Sizzle, Taste the Art of Meat
       </h1>
-      <p className="text-lg px-32">
+      <p className="text-lg md:px-32">
         "Discover Our daily Masterpieces of Premium Cuts and Bold Flavors, Where
         steak cravings are met with mouthwatering satisfaction of juicy Steaks
         and Hearty Dishes to Power Your Day. Let your taste buds dance with joy,
@@ -51,7 +51,7 @@ const Menu = () => (
       <h1 className="text-primary text-center text-2xl border-b mx-auto w-1/2 border-primary pb-4">
         Noonday Feast
       </h1>
-      <p className="px-64 py-8">
+      <p className="px-4 md:px-64 py-8">
         Craving a midday escape that satisfies both body and soul? Our lunch
         menu is a celebration of bold flavors and masterful craftsmanship,
         featuring the finest cuts of meat grilled to succulent perfection. From
@@ -69,7 +69,7 @@ const Menu = () => (
       <h1 className="text-primary text-center text-2xl border-b mx-auto w-1/2 border-primary pb-4">
         Meridian Cuts
       </h1>
-      <p className="px-64 py-8">
+      <p className="px-4 md:px-64 py-8">
         Elevate your midday meal with our Meridian Cuts, where premium steaks
         take center stage. Highlighting tender ribeyes and precisely prepared
         cuts, this menu pairs bold flavors with robust sides to redefine
@@ -87,7 +87,7 @@ const Menu = () => (
       <h1 className="text-primary text-center text-2xl border-b mx-auto w-1/2 border-primary pb-4">
         Twilight Table
       </h1>
-      <p className="px-64 py-8">
+      <p className="px-4 md:px-64 py-8">
         As the sun sets, let your senses feast on an unforgettable dining
         experience. Our supper menu showcases the pinnacle of steakhouse
         excellence, with prime cuts of beef, pork and lamb, expertly seared to
@@ -105,7 +105,7 @@ const Menu = () => (
       <h1 className="text-primary text-center text-2xl border-b mx-auto w-1/2 border-primary pb-4">
         Drinks and Wines
       </h1>
-      <p className="px-64 py-8">
+      <p className="px-4 md:px-64 py-8">
         No steak is complete without the perfect pour, and our drinks and wines
         menu delivers just that. From velvety reds handpicked to complement the
         rich, smoky notes of our signature meats to craft cocktails that spark

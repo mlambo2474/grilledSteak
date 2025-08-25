@@ -1,6 +1,6 @@
 import tableImage from "../assets/restauranttable.png"
 const Reserve = () => (
-  <div className="py-24 container mx-auto max-w-3xl">
+  <div className="py-16 md:py-24 container mx-auto max-w-3xl">
     <div>
       <img src={tableImage} alt="table-image" className="h-40 w-full"/>
     </div>

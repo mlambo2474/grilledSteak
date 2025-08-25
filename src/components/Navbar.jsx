@@ -22,7 +22,7 @@ const Navbar = () =>{
       </Link>
     </div>
      
-      <div className={`space-x-10 text-sm flex-1 py-2 `}>
+      <div className={`space-x-5 md:space-x-10 text-sm flex-1 py-2 `}>
         <Link to="/menu" className={`${isScrolled ? 'hover:text-primary' : 'hover:text-secondary'}`}>Menu</Link>
         <Link to="/order" className={`${isScrolled ? 'hover:text-primary' : 'hover:text-secondary'}`}>Order Online</Link>
         <Link to="/reserve" className={`${isScrolled ? 'hover:text-primary' : 'hover:text-secondary'}`}>Reserve Table</Link>

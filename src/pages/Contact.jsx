@@ -1,5 +1,5 @@
 const Contact = () => (
-  <div className="pt-24 container mx-auto max-w-3xl text-secondary">
+  <div className="pt-14 md:pt-24 container mx-auto max-w-3xl text-secondary">
     <h1 className="text-3xl font-bold mb-6 text-primary text-center">Contact Us</h1>
     <div className="mb-8">
       {/* Map embed placeholder */}
@@ -22,7 +22,7 @@ const Contact = () => (
         </div>
       </div>
       <h1 className="text-4xl font-bold mb-6 text-primary text-center">Questions? Comments? Advice?</h1>
-      <form className="flex-1 space-y-4">
+      <form className="flex-1 space-y-4 px-4">
           <input type="text" placeholder="Name" className="bg-gray-50 w-full p-3 border rounded  outline-primary" />
           <input type="email" placeholder="Email" className="bg-gray-50 w-full p-3 border rounded outline-primary" />
           <input type="text" placeholder="Subject" className="bg-gray-50  w-full p-3 border rounded outline-primary" />

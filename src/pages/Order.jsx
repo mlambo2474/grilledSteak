@@ -12,10 +12,10 @@ const Order = () => {
   <div className="pt-8 container mx-auto">
 
     <div className="bg-white fixed w-full z-10 top-20 left-0 flex justify-end items-center px-8  gap-4 text-primary py-4">
-      <span className="text-md flex items-center font-bold gap-2 "><FaPhoneAlt className="w-6 h-6 " /><span className="text-secondary-light">(+27) 613-101642</span></span>
+      <span className="text-md flex items-center font-bold gap-2 "><FaPhoneAlt className=" w-4 h-4 md:w-6 md:h-6 " /><span className="text-secondary-light text-xs md:text-lg">(+27) 613-101642</span></span>
        <input type="search" placeholder="Search" className="bg-gray-50 border border-primary p-2 outline-none rounded-2xl"/>
        
-       <span className="flex items-center text-3xl font-bold pr-2"><MdShoppingCart className="w-8 h-8" />0</span>
+       <span className="flex items-center text-2xl md:text-3xl font-bold pr-2"><MdShoppingCart className="w-6 h-6 md:w-8 md:h-8" />0</span>
     </div>
     <section
       className="py-8 mb-8 bg-[url('https://static.vecteezy.com/system/resources/thumbnails/046/451/714/small_2x/grilled-steak-sizzling-on-open-flames-seasoned-with-herbs-and-spices-perfect-for-barbecue-food-and-culinary-themes-free-photo.jpg')] bg-no-repeat w-full bg-cover text-white"
@@ -40,10 +40,7 @@ const Order = () => {
       </div>
     </section>
     {/* Product cards grid */}
-    <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8 text-secondary">
-      {/* ProductCard components will go here */}
-
-      {/* DishCard components will go here */}
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-6 px-4 md:mx-0 mb-8 text-secondary">
       {Dishes.map(({ id, image, title, description, price }) => (
         <DishCard
           key={id}

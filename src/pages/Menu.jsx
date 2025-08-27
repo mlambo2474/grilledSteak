@@ -1,11 +1,11 @@
 import { IoIosArrowForward } from "react-icons/io";
-
+import image from "../assets/grilledsteak.jpg"
 
 const Menu = () => (
   <div className="pt-12 container mx-auto w-full text-secondary">
     <section
       className="h-[100vh] bg-cover bg-center flex items-center justify-center "
-      style={{ backgroundImage: "url(/src/assets/grilledsteak.jpg)" }}
+      style={{ backgroundImage: `url(${image})`}}
     >
       <div className="bg-black bg-opacity-50 p-8 rounded">
         <h1 className="text-4xl md:text-5xl font-bold text-white  font-cursive mb-4">

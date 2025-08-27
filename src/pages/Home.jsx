@@ -4,6 +4,8 @@ import ReviewCard from "../components/ReviewCard";
 import { reviews } from "../components/Reviews";
 import DishCard from "../components/DishCard";
 import Gallery from "../components/Gallery"
+import image from "../assets/grilledsteak.jpg"
+
 
 
 const Home = () => {
@@ -12,7 +14,7 @@ const Home = () => {
   return (
   <div className="text-secondary pt-10  ">
     {/* Hero Section */}
-    <section className="h-[100vh] bg-cover bg-center flex items-center justify-center " style={{backgroundImage: 'url(/src/assets/grilledsteak.jpg)'}}>
+    <section className="h-[100vh] bg-cover bg-center flex items-center justify-center " style={{backgroundImage: `url(${image})`}}>
       <div className="bg-black bg-opacity-50 p-8 rounded">
         <h1 className="text-4xl md:text-6xl font-bold text-white mb-4">Welcome to Grilled Steak</h1>
         <p className="text-lg text-white mb-6">Savor the best steaks in town. Reserve your table or order online!</p>

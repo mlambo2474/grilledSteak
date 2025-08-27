@@ -7,7 +7,7 @@ import SantaMariapork from "../assets/Santa-Mariapork.webp";
 import fillet from "../assets/lampp.jpg";
 import friedchicken from "../assets/friedchicken.jpg";
 import chickensteak from "../assets/chiken-Steak.jpg";
-import fajitas from "../assets/chickensteak-fajitas.jpg";
+import fajitas from "../assets/Chickensteak-fajitas.jpg";
 
 
 const images = [

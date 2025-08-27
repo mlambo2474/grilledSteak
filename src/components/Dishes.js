@@ -4,7 +4,7 @@ import dish3 from '../assets/bbq-pork.jpg';
 import dish4 from '../assets/f10.jpeg';
 import friedchicken from "../assets/friedchicken.jpg";
 import chickensteak from "../assets/chiken-Steak.jpg";
-import fajitas from "../assets/chickensteak-fajitas.jpg";
+import fajitas from "../assets/Chickensteak-fajitas.jpg";
 import dish5 from '../assets/grilledsteak.jpg';
 import steak from "../assets/grilledsteak.jpg";
 import grilledpork from "../assets/grilledpork.jpg";

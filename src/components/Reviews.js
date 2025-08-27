@@ -20,19 +20,19 @@ export const reviews = [
         name :'Mary Jane' , 
     },
     {
-        id:3,
+        id:300,
         review : "This restaurant deserves all the praise. The BBQ sirloin was cooked exactly as I requested, and the side dishes complemented the meal beautifully. Prices are fair for the quality. We’ll definitely be back soon!",
         rating: 5,
         name :'Shannon' , 
     },
     {
-        id:3,
+        id:33,
         review : "We came here for a special occasion and it did not disappoint. The staff was attentive without being overbearing, and every dish we tried was perfectly prepared. You can really taste the quality in their ingredients.",
         rating: 5,
         name :'Tatenda & Family' , 
     },
     {
-        id:3,
+        id:44,
         review : "The menu has something for everyone, and everything we tried was delicious. I especially loved the grilled steak with chimichurri – such a vibrant flavor! Great ambiance for date night or a family dinner.",
         rating: 5,
         name :'Tonderai' , 
